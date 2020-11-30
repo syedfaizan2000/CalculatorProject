@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="271.0" prefWidth="460.0" style="-fx-background-color: grey;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <Button fx:id="btn_one" layoutY="65.0" mnemonicParsing="false" onAction="#pressOne" prefHeight="51.0" prefWidth="115.0" style="-fx-background-color: #b2bec3;" stylesheets="@application.css" text="1" textFill="#000000fa">
+         <font>
+            <Font name="Berlin Sans FB" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_four" layoutY="116.0" mnemonicParsing="false" onAction="#pressFour" prefHeight="51.0" prefWidth="115.0" style="-fx-background-color: #b2bec3;" stylesheets="@application.css" text="4" textFill="#000000fa">
+         <font>
+            <Font name="Berlin Sans FB" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_seven" layoutY="167.0" mnemonicParsing="false" onAction="#pressSeven" prefHeight="51.0" prefWidth="115.0" style="-fx-background-color: #b2bec3;" stylesheets="@application.css" text="7" textFill="#000000fa">
+         <font>
+            <Font name="Berlin Sans FB" size="23.0" />
+         </font>
+      </Button>
+      <Button layoutY="218.0" mnemonicParsing="false" onAction="#clear" prefHeight="51.0" prefWidth="115.0" style="-fx-background-color: #b2bec3;" stylesheets="@application.css" text="Clear" textFill="#000000fa">
+         <font>
+            <Font name="Berlin Sans FB" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_two" layoutX="115.0" layoutY="65.0" mnemonicParsing="false" onAction="#pressTwo" prefHeight="51.0" prefWidth="115.0" style="-fx-background-color: #b2bec3;" stylesheets="@application.css" text="2" textFill="#000000fa">
+         <font>
+            <Font name="Berlin Sans FB" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_five" layoutX="115.0" layoutY="116.0" mnemonicParsing="false" onAction="#pressFive" prefHeight="51.0" prefWidth="115.0" style="-fx-background-color: #b2bec3;" stylesheets="@application.css" text="5" textFill="#000000fa">
+         <font>
+            <Font name="Berlin Sans FB" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_eight" layoutX="115.0" layoutY="167.0" mnemonicParsing="false" onAction="#pressEight" prefHeight="51.0" prefWidth="115.0" style="-fx-background-color: #b2bec3;" stylesheets="@application.css" text="8" textFill="#000000fa">
+         <font>
+            <Font name="Berlin Sans FB" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_zero" layoutX="115.0" layoutY="218.0" mnemonicParsing="false" onAction="#pressZero" prefHeight="51.0" prefWidth="115.0" style="-fx-background-color: #b2bec3;" stylesheets="@application.css" text="0" textFill="#000000fa">
+         <font>
+            <Font name="Berlin Sans FB" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_three" layoutX="230.0" layoutY="65.0" mnemonicParsing="false" onAction="#pressThree" prefHeight="51.0" prefWidth="115.0" style="-fx-background-color: #b2bec3;" stylesheets="@application.css" text="3" textFill="#000000fa">
+         <font>
+            <Font name="Berlin Sans FB" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_six" layoutX="230.0" layoutY="116.0" mnemonicParsing="false" onAction="#pressSix" prefHeight="51.0" prefWidth="115.0" style="-fx-background-color: #b2bec3;" stylesheets="@application.css" text="6" textFill="#000000fa">
+         <font>
+            <Font name="Berlin Sans FB" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_nine" layoutX="230.0" layoutY="167.0" mnemonicParsing="false" onAction="#pressNine" prefHeight="51.0" prefWidth="115.0" style="-fx-background-color: #b2bec3;" stylesheets="@application.css" text="9" textFill="#000000fa">
+         <font>
+            <Font name="Berlin Sans FB" size="23.0" />
+         </font>
+      </Button>
+      <Button layoutX="230.0" layoutY="218.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="115.0" style="-fx-background-color: #b2bec3;" stylesheets="@application.css" text="." textFill="#000000fa">
+         <font>
+            <Font name="Berlin Sans FB" size="23.0" />
+         </font>
+      </Button>
+      <Button layoutX="345.0" layoutY="65.0" mnemonicParsing="false" onAction="#divide" prefHeight="51.0" prefWidth="115.0" style="-fx-background-color: #b2bec3;" stylesheets="@application.css" text="/" textFill="#000000fa">
+         <font>
+            <Font name="Berlin Sans FB" size="23.0" />
+         </font>
+      </Button>
+      <Button layoutX="345.0" layoutY="116.0" mnemonicParsing="false" onAction="#subtraction" prefHeight="51.0" prefWidth="115.0" style="-fx-background-color: #b2bec3;" stylesheets="@application.css" text="-" textFill="#000000fa">
+         <font>
+            <Font name="Berlin Sans FB" size="23.0" />
+         </font>
+      </Button>
+      <Button layoutX="345.0" layoutY="167.0" mnemonicParsing="false" onAction="#addition" prefHeight="51.0" prefWidth="115.0" style="-fx-background-color: #b2bec3;" stylesheets="@application.css" text="+" textFill="#000000fa">
+         <font>
+            <Font name="Berlin Sans FB" size="23.0" />
+         </font>
+      </Button>
+      <Button layoutX="345.0" layoutY="218.0" mnemonicParsing="false" onAction="#equals" prefHeight="51.0" prefWidth="115.0" style="-fx-background-color: #b2bec3;" stylesheets="@application.css" text="=" textFill="#000000fa">
+         <font>
+            <Font name="Berlin Sans FB" size="23.0" />
+         </font>
+      </Button>
+      <Button layoutX="345.0" layoutY="7.0" mnemonicParsing="false" onAction="#multiply" prefHeight="51.0" prefWidth="115.0" style="-fx-background-color: #b2bec3;" stylesheets="@application.css" text="x" textFill="#000000fa">
+         <font>
+            <Font name="Berlin Sans FB" size="23.0" />
+         </font>
+      </Button>
+      <TextField fx:id="view" layoutX="4.0" layoutY="7.0" prefHeight="51.0" prefWidth="338.0" style="-fx-background-color: white; -fx-border-color: black; -fx-border-width: 3px;">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font></TextField>
+   </children>
+</Pane>
